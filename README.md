@@ -1,10 +1,5 @@
-# vuejs-amd-loader
-An AMD (RequireJS) loader for vue.js components
-
-Allows you to use `.vue` files and `require` them:
-
-```
-```
+# vue.js AMD Loader
+An AMD (RequireJS) loader for vue.js components. Allows you to use `.vue` files and `require` them.
 
 # Usage
 Install `vue-amd-loader`. Configure their require paths:
@@ -14,7 +9,7 @@ Install `vue-amd-loader`. Configure their require paths:
     // Vue itself
     "vue": "https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.26/vue",
     // Loader
-    "vue-amd-loader": "vue-amd-loader/vue-amd-loader",
+    "vue-amd-loader": "path/to/vue-amd-loader",
   }
 ```
 
